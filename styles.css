@@ -1,0 +1,83 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Black text for readability */
+  }
+  
+  .services-section {
+    padding: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect for the background */
+    border-radius: 10px; /* Rounded corners for the section */
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #333333; /* Black */
+  }
+  
+  .header p {
+    color: #7a7a7a; /* Gray for subtitle */
+    margin-bottom: 40px;
+  }
+  
+  /* Service Card Styling */
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white for cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #d4af37; /* Golden border */
+  }
+  
+  .service h2 {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    color: #d4af37; /* Golden price color */
+  }
+  
+  .duration {
+    font-size: 0.9rem;
+    color: #7a7a7a;
+    margin-top: 5px;
+  }
+  
+  /* Button for Booking */
+  .book-now-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #8bc34a; /* Pista green */
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #7cb342;
+  }
+  
